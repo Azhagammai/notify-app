@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/688b71bc-f48b-4082-bd44-8f23f00bd057" /># 🧭 NotifyTrack – Smart Notification Timetable ⏰
+# 🧭 NotifyTrack – Smart Notification Timetable ⏰
 
 **NotifyTrack** is a sleek, responsive web app built with **React, HTML, CSS, and JavaScript** that lets users create a **visual weekly timetable** and receive **real-time notifications** for their custom tasks — just like a digital school bell, but better!
 
@@ -41,5 +41,9 @@
 ## npx create-next-app@latest --enter yiur projectname --@latest
 cd my-next-app
 npm run dev -->check the server
+
+
 ## 📂 Folder Structure
+
+
 
