@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/688b71bc-f48b-4082-bd44-8f23f00bd057" /># 🧭 NotifyTrack – Smart Notification Timetable ⏰
 
-## Getting Started
+**NotifyTrack** is a sleek, responsive web app built with **React, HTML, CSS, and JavaScript** that lets users create a **visual weekly timetable** and receive **real-time notifications** for their custom tasks — just like a digital school bell, but better!
 
-First, run the development server:
+> 🧠 Designed for students, professionals, and productivity lovers who want a modern, visual alternative to boring to-do lists.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+👉 [Click to Visit NotifyTrack](#) (Coming soon…)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🖼️ Features
 
-To learn more about Next.js, take a look at the following resources:
+| Feature | Description |
+|--------|-------------|
+| 🗓️ Timetable View | Visual weekly schedule in a grid format. Each cell = 1 time block. |
+| 🔔 Notifications | Time-based notifications using Web Notifications API. |
+| ✏️ Editable Tasks | Click any cell to add/edit task name, time, and category. |
+| 🎨 Color-Coded | Tasks are color-coded by type (Study, Break, Meeting, etc.) |
+| 💾 Persistent | All data is saved in browser (localStorage/IndexedDB) |
+| 📱 PWA Enabled | Installable on mobile/desktop. Works offline too! |
+| 🌙 Dark Mode | Toggle between light/dark themes for better UX. |
+| 🎧 Sound Alerts | Optional sound chimes with notification popups. |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+| Layer        | Technologies Used                     |
+|-------------|----------------------------------------|
+| Frontend     | React.js, HTML5, TailwindCSS (or CSS3) |
+| Time Engine  | JS `setInterval()`, `Date`, `Intl`     |
+| Notifications| Web Notifications API                 |
+| Storage      | `localStorage` / `IndexedDB`          |
+| Bonus        | Zustand (State), Framer Motion (UI FX) |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
+## npx create-next-app@latest --enter yiur projectname --@latest
+cd my-next-app
+npm run dev -->check the server
+## 📂 Folder Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
